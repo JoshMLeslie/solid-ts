@@ -1,0 +1,6 @@
+@import './src/styles/Login-demo';
+
+h1,
+p {
+  font-family: Lato;
+}

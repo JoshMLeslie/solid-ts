@@ -1,0 +1,33 @@
+{
+  "name": "react-ts",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject"
+  },
+  "browserslist": [
+    "last 3 and_chr versions",
+    "last 3 chrome versions",
+    "last 3 opera versions",
+    "last 3 ios_saf versions",
+    "last 3 safari versions",
+    "last 3 edge versions"
+  ],
+  "dependencies": {
+    "@inrupt/solid-client": "^1.22.0",
+    "@inrupt/solid-client-authn-browser": "^1.11.7",
+    "@inrupt/vocab-common-rdf": "^1.0.3",
+    "@rdfjs/data-model": "^2.0.1",
+    "@types/react": "^18.0.9",
+    "@types/react-dom": "^18.0.4",
+    "events": "^3.3.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  },
+  "devDependencies": {
+    "react-scripts-ts": "latest"
+  }
+}
